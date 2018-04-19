@@ -1,0 +1,171 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+color: white;
+background-image: url('https://cdn.wallpapersafari.com/10/7/bTHSIV.jpg');
+background-size: cover;
+
+}
+
+#container{
+  position: absolute;
+  left: 39%;
+  width: 31%;
+}
+
+#display{
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 30;
+  height: 65px;
+  width: 68%;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: initial;
+  position: relative;
+  top: 20px;
+  margin: 0 0 0 -3px;
+}
+
+#button0,#button1, #button2, #button3, #button4, #button5,
+#button6, #button7, #button8 , #button9{
+  width: 17%;
+}
+
+.num ,#button10{
+  width: 17%;
+}
+
+#clear{
+  width: 17%;
+  height: 15%;
+  margin-left: -4px;
+}
+
+input{
+  text-align: center;
+  height: 45%;
+  font-size: 35px;
+  width: 69%;
+  margin-left: -4px;
+}
+
+#add{
+  text-align: center;
+  width: 18%;
+  height: 44px;
+  font-size: 34px;
+  margin-top: 4px;
+}
+
+#subtract{
+  text-align: center;
+  width: 18%;
+  height: 10%;
+  font-size: 35px;
+}
+
+#multiply{
+  text-align: center;
+  width: 18%;
+  font-size: 35px;
+}
+
+#divide{
+  text-align: center;
+  width: 18%;
+  margin-left: -1%;
+  font-size: 35px;
+}
+
+
+
+
+
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 0.2em #eaeaea, 0 0 0.2em #000000;
+  font-size: 60px;
+  margin-bottom: 0%;
+
+}
+
+/*input{
+    display: block;
+}*/
+
+/*h2{
+  background-color: #F2FEC1;
+  width: 82%;
+  height: 30px;
+  text-align: right;
+}*/
+
+
+button{
+
+}
